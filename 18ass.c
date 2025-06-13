@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    for(int i=0;i<5;i++)
+    int i;
+    printf("enter a number");
+    scanf("%d",&i);
+    for( i=0;i<5;i++)
     printf("Hello\n");
-    
+    return 0;
 }
